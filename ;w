@@ -1,0 +1,21 @@
+Carクラスを追加
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/14/5016ef157baf001a14658ddaeb7dcd35
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/3d/00426cfe7aaf001a14658ddaeb7dcd35
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/2.git-samlpe-ito/.indexes/af/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/test/.indexes/e4/92/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+#	modified:   .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+#	modified:   .metadata/.plugins/org.eclipse.jdt.core/3271193799.index
+#	modified:   .metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+#	new file:   2.git-samlpe-ito/src/main/java/com/example/demo/domain/Car.java
+#	modified:   test/bin/test/Main.class
+#	modified:   test/src/test/Main.java
+#
+# Changes not staged for commit:
+#	modified:   .metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+#
