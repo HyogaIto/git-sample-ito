@@ -6030,3 +6030,75 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 11:25:53.064
 !MESSAGE executing callback sts4.classpath.BZaMftvT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:06.214
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:06.222
+!MESSAGE buffering callback sts4.classpath.BZaMftvT 2.git-samlpe-ito true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:06.224
+!MESSAGE executing callback sts4.classpath.BZaMftvT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:06.999
+!MESSAGE executing callback sts4.classpath.BZaMftvT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:19.377
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:19.386
+!MESSAGE classpath=23 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:19.389
+!MESSAGE buffering callback sts4.classpath.BZaMftvT 2.git-samlpe-ito false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:19.390
+!MESSAGE executing callback sts4.classpath.BZaMftvT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:19.401
+!MESSAGE executing callback sts4.classpath.BZaMftvT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:19.601
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:19.637
+!MESSAGE classpath=23 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:19.641
+!MESSAGE buffering callback sts4.classpath.BZaMftvT 2.git-samlpe-ito false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:19.642
+!MESSAGE executing callback sts4.classpath.BZaMftvT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:19.672
+!MESSAGE executing callback sts4.classpath.BZaMftvT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:20.991
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:20.995
+!MESSAGE classpath=23 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:20.998
+!MESSAGE buffering callback sts4.classpath.BZaMftvT 2.git-samlpe-ito false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:20.999
+!MESSAGE executing callback sts4.classpath.BZaMftvT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:21.007
+!MESSAGE executing callback sts4.classpath.BZaMftvT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:25.452
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:25.483
+!MESSAGE classpath=83 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:25.496
+!MESSAGE buffering callback sts4.classpath.BZaMftvT 2.git-samlpe-ito false 83
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:25.497
+!MESSAGE executing callback sts4.classpath.BZaMftvT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-16 12:15:25.579
+!MESSAGE executing callback sts4.classpath.BZaMftvT SUCCESS [done]
