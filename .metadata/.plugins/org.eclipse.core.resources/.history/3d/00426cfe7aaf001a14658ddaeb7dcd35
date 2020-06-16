@@ -18,6 +18,17 @@ public class Main {
 
 	}
 
+	// 訪問者を確認して、条件に合えば開門する
+//	public static void jdugOpenGate(Visitor visitor) {
+//		// エラー処理を先に書く
+//		if (!"先生".equals(visitor.getType()) 
+//				&& !"在校生".equals(visitor.getType()) 
+//				&& !visitor.isPermission()) {
+//			// 門は開けない
+//		} else {
+//			// 門を開ける処理
+//		}
+//	}
 	
 	// 訪問者を確認して、条件に合えば開門する
 	public static void jdugOpenGate(Visitor visitor) {
@@ -32,21 +43,7 @@ public class Main {
 			//門は開けない
 			return;
 		}
-		
 			//以下開門処理
 		
-		
-		
 		}
-	// 訪問者を確認して、条件に合えば開門する
-//	public static void jdugOpenGate(Visitor visitor) {
-//		// エラー処理を先に書く
-//		if (!"先生".equals(visitor.getType()) 
-//				&& !"在校生".equals(visitor.getType()) 
-//				&& !visitor.isPermission()) {
-//			// 門は開けない
-//		} else {
-//			// 門を開ける処理
-//		}
-//	}
 }
