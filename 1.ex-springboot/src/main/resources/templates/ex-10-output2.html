@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>output2</title>
+</head>
+<body>
+<h1>ユーザ情報</h1>
+名前：<span th:text="${application.user.name}"></span><br>
+誕生日：<span th:text="${application.user.birthDay}"></span><br>
+コメント：<span th:text="${application.user.comment}"></span><br>
+
+<a th:href="@{/ex10/ex10Output}">outputへリンク</a>
+</body>
+</html>

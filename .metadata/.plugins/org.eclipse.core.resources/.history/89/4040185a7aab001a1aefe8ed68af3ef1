@@ -1,0 +1,6 @@
+
+public class ReceiveNameForm {
+	private String name;
+	
+
+}

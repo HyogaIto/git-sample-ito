@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<table border="1">
+<tr th:each="groupList:${grouplist}">
+<td th:text="${groupList}"></td>
+</tr>
+
+
+
+</table>
+
+</body>
+</html>

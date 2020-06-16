@@ -1,0 +1,21 @@
+package com.example.contoller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/ex07")
+public class EX07Controller {
+
+	@RequestMapping("")
+	public String index() {
+		return "ex-06";
+	}
+	
+	@RequestMapping("calc")
+	public String calc(int num1,int num2) {
+		System.out.println(num1*num2);
+		return "finished";
+	}
+	
+}

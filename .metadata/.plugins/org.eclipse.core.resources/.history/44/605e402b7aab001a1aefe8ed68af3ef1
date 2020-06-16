@@ -1,0 +1,22 @@
+package com.example.demo.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("exam03")
+public class ReceiveNameController {
+
+	@RequestMapping("")
+	public String index() {
+		return "exam03";
+	}
+	
+	
+	@RequestMapping("result")
+	public String result(String name) {
+		System.out.println(name);
+		return "result";
+	}
+	
+}

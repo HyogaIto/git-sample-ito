@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>ex4</title>
+</head>
+<body>
+<form action="failure.thml"
+th:action="@{/ex05/receive-hobby}" method="post">
+趣味を入力してください<input type="text" name="hobby">
+<button type="submit">送信</button>
+
+</form>
+</body>
+</html>

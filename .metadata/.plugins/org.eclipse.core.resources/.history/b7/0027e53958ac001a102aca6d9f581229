@@ -1,0 +1,32 @@
+package com.example.contoller;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/user")
+public class UserController {
+	
+	@RequestMapping("")
+	public String index(Model model) {
+		Map<Integer, String> hobbyMap=new LinkedHashMap<>();
+		hobbyMap.put(1, "野球");
+		hobbyMap.put(2, "サッカー");
+		hobbyMap.put(3, "テニス");
+		
+		model.addAttribute("hobbyMap", hobbyMap);
+		
+		return "user/input";
+		
+	}
+	
+	@RequestMapping("/output")
+	public String output() {
+		
+	}
+
+}

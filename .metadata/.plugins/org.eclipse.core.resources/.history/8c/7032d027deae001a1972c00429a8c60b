@@ -1,0 +1,18 @@
+package test;
+
+public class Visitor {
+	/** 「先生」、「生徒」、「一般人」のいずれかが入る */
+	private String type;
+	/** 許可を表す。　trueなら許可あり。*/
+	private boolean isPermission;
+	
+	/**　コンストラクタ　 */
+	public Visitor(String type,boolean isParmission) {
+		this.type=type;
+		this.isPermission=isParmission;
+	}
+	public Visitor() { }
+	
+	//以下、getter,setter,toString
+
+}

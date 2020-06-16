@@ -1,0 +1,31 @@
+package com.example.contoller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.example.form.EX06Form;
+
+@Controller
+@RequestMapping("/ex06")
+public class EX06Controller {
+	
+	@ModelAttribute
+	public EX06Form setUpForm() {
+		return new EX06Form();
+	}
+
+	@RequestMapping("")
+	public String index() {
+		return "ex-06";
+	}
+	
+	@RequestMapping("receive-info")
+	public String receiveHobby(String name,Integer age,String comment) {
+		System.out.println("名前："+name);
+		System.out.println("年齢："+age);
+		System.out.println("コメント："+comment);
+		return "finished";
+	}
+	
+}

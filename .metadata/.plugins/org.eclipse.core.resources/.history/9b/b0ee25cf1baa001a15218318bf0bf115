@@ -1,0 +1,15 @@
+package com.example.contoller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/ex01")
+public class Ex02Controller {
+	
+	@RequestMapping("/show-name")
+	public String showName() {
+		return "ex-01";
+	}
+
+}

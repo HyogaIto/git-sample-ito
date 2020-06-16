@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;exam02-result.html&apos; to &apos;exam02-result.html&apos;&#x0D;&#x0A;- Original project: &apos;1-2.test-spring-mvc&apos;&#x0D;&#x0A;- Destination element: &apos;exam02-result.html&apos;&#x0D;&#x0A;- Original element: &apos;exam02-result.html&apos;" description="Copy file" element1="src/main/resources/templates/exam02-result.html" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1591921658479" target="/1-2.test-spring-mvc/src/main/resources/templates/exam02-result.html" units="0" version="1.0"/>
+</session>

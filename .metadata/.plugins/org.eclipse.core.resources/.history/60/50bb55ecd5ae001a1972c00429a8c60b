@@ -1,0 +1,36 @@
+package com.example.demo.repository;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.example.demo.domain.Employee;
+
+@Repository
+public class EmployeeRepository {
+	@Autowired
+	private NamedParameterJdbcTemplate template;
+	
+	public Employee load(Integer id) {
+		System.out.println("Repository-Load");
+		return null;
+	}
+	
+	public List<Employee> findAll(){
+		System.out.println("Repository-FindAll");
+		return new ArrayList<>();
+	}
+	
+	public Employee save(Employee employee) {
+		System.out.println("Repository-Save");
+		return null;
+		}
+	
+	public void deleteById(Integer id) {
+		System.out.println("Repository-deleteById");
+	}
+	
+}

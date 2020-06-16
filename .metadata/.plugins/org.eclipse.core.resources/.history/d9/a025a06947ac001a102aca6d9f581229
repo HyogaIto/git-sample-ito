@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+ログインに成功しました
+<br>
+<h1>ログイン者情報</h1>
+名前：<span th:text="${session.user.name}"></span><br>
+メール：<span th:text="${session.user.email}"></span><br>
+年齢：<span th:text="${session.user.age}"></span><br>
+
+</body>
+</html>

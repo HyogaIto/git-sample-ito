@@ -1,0 +1,10 @@
+package test;
+
+public class Check {
+	
+	public boolean checkVisitor() {
+		
+	}
+
+
+}

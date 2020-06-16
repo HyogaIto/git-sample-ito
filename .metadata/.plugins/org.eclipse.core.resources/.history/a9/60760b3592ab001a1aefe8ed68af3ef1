@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>結果</h1>
+
+名前：<span th:text="member.name"></span>
+年齢：<span th:text="mamber.age"></span>歳
+所持金：<span th:text="member.money"></span>円
+コメント：<span th:text="member.comment"></span>
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+package com.example.contoller;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/ex17")
+public class Ex17QuestionnaireController {
+	
+	@RequestMapping("")
+	public String index(Model model) {
+		Map<Integer,String> genderMap=new LinkedHashMap<>();
+		Map<Integer,String> hobbyMap=new LinkedHashMap<>();
+		Map<Integer,String> programMap=new LinkedHashMap<>();
+		genderMap.put(1, "男");
+		genderMap.put(1, "女");
+		hobbyMap.put(1, "テニス");
+		hobbyMap.put(2, "野球");
+		hobbyMap.put(3, "ゴルフ");
+		programMap.put(1,"Java");
+		programMap.put(2,"C");
+		programMap.put(3,"Python");
+		
+		model.addAttribute("genderMap",genderMap);
+		model.addAttribute("hobbyMap",hobbyMap);
+		model.addAttribute("programMap",programMap);
+		
+		return "ex-17-input";
+	}
+
+}

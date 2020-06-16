@@ -1,0 +1,42 @@
+package com.example.contoller;
+
+import javax.servlet.http.HttpSession;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+
+import com.example.form.Ex10Form;
+
+@Controller
+@RequestMapping("/ex10")
+public class Ex10Controller {
+	
+	@Autowired
+	private HttpSession session;
+
+	@RequestMapping("")
+	public String index() {
+		return "ex-10";
+	}
+	
+	@RequestMapping("/ex10Input")
+	public String ex10Input(Ex10Form ex10Form) {
+		session.setAttribute("name", ex10Form.getName());
+		session.setAttribute("age", ex10Form.getAge());
+		session.setAttribute("comment", ex10Form.getComment());
+		return "ex-10-output";
+	}
+	
+	@RequestMapping("/ex10Output")
+	public String ex10Output() {
+		return "ex-10-output";
+	}
+	
+	@RequestMapping("/ex10Output2")
+	public String ex10Output2() {
+		return "ex-10-output2";
+	}
+	
+}

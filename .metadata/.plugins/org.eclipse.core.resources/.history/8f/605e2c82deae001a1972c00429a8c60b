@@ -1,0 +1,15 @@
+package test;
+
+public class Check {
+	Visitor visitor1=new Visitor("æ¶",false);
+	Visitor visitor2=new Visitor("æ¶",false);
+	Visitor visitor1=new Visitor("æ¶",false);
+	Visitor visitor2=new Visitor("æ¶",false);
+	
+	public boolean checkVisitor() {
+		
+		
+	}
+
+
+}

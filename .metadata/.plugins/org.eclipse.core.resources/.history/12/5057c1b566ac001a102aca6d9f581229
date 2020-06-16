@@ -1,0 +1,16 @@
+package com.example.contoller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/ex17")
+public class Ex17QuestionnaireController {
+	
+	@RequestMapping("")
+	public String index(Model model) {
+		
+	}
+
+}

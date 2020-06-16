@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>ex4</title>
+</head>
+<body>
+<h1>ログイン結果画面</h1>
+ログインに成功しました
+
+
+</body>
+</html>

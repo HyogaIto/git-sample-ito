@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>アンケートフォーム</h1>
+	<form th:action="@{}">
+		<div>名前：</div>
+		<div>
+			<input type="text" name="name">
+		</div>
+		<div>メール：</div>
+		<div>
+			<input type="text" name="email">
+		</div>
+		<div>性別：</div>
+		<div th:each="">
+			<input type="radio" name="gender" th:value="${}" th:text="${}">
+		</div>
+
+		<div>趣味:</div>
+		<div th:each="">
+			<input type="checkbox" name="hobby" th:value="${}" th:text="${}">
+		</div>
+
+		<div>好きな言語</div>
+		<div th:each="">
+			<select name="program"> 
+			<option th:value="${}" th:text="${}">
+			</select>
+		</div>
+
+		<div>その他：</div>
+		<div>
+			<textarea cols="30" rows="10" name="commenmt"></textarea>
+		</div>
+		<button>送信</button>
+
+	</form>
+
+</body>
+</html>
